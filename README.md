@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-Simple single-page personal website built with HTML, CSS, and JS — inspired by sivap17.github.io.
+Simple single-page personal website built with HTML, CSS, and JS
 
 ## Steps to Deploy (GitHub Pages)
 
