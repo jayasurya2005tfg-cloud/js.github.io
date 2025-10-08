@@ -1,82 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jayasurya | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>JAYASURYA — Developer</title>
+  <meta name="description" content="Jayasurya — calm-minded creative developer crafting serene digital journeys." />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✦</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>
-      <h1><a href="#home">Jayasurya</a></h1>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./">JAYASURYA</a>
+      <nav class="nav">
+        <a href="about.html">About</a>
+        <a href="mailto:jayasurya2005tfg@gmail.com">Contact</a>
+        <a href="https://www.instagram.com/_itz_me_js?igsh=MThnejBsdnF0ZWM3OA%3D%3D&utm_source=qr" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    </div>
   </header>
 
-  <section id="home" class="hero">
-    <!-- 🔽 Replace this placeholder with your actual photo -->
-    <img src="https://via.placeholder.com/150" alt="Jayasurya photo" class="profile-pic" />
-    <h2>Hi, I'm <span class="accent">Jayasurya</span></h2>
-    <p>Software Developer | Web Enthusiast | Problem Solver</p>
-    <div class="social-links">
-      <!-- 🔽 Replace with your actual profile URLs -->
-      <a href="https://github.com/jayasurya">GitHub</a>
-      <a href="https://linkedin.com/in/jayasurya">LinkedIn</a>
-      <a href="mailto:jayasurya2005tfg@gmail.com">Email</a>
+  <main class="hero">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h1 class="hero-title">Hi — I'm <span>JAYASURYA</span></h1>
+        <p class="hero-sub">A calm-minded creative developer crafting serene digital journeys.</p>
+        <p class="hero-cta">
+          <a class="btn" href="mailto:jayasurya2005tfg@gmail.com">Email Me</a>
+          <a class="btn ghost" href="about.html">About</a>
+        </p>
+      </div>
+
+      <div class="hero-right">
+        <div class="profile-wrap">
+          <img src="assets/profile.jpg" alt="Jayasurya" class="profile-photo">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="mini-contact">
+    <div class="container">
+      <p>Want to collaborate? <a href="mailto:jayasurya2005tfg@gmail.com">jayasurya2005tfg@gmail.com</a></p>
     </div>
   </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I'm <strong>Jayasurya</strong> — a passionate developer who loves building creative and functional
-      web applications. I specialize in front-end development and I’m currently exploring
-      full-stack and cloud technologies.
-    </p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-
-      <div class="project-card">
-        <h3>Portfolio Website</h3>
-        <p>A personal website showcasing my work and skills, built using HTML, CSS, and JavaScript.</p>
-        <a href="https://github.com/jayasurya/portfolio" target="_blank">View on GitHub</a>
-      </div>
-
-      <div class="project-card">
-        <h3>Weather App</h3>
-        <p>A web app that displays live weather data using the OpenWeather API.</p>
-        <a href="https://github.com/jayasurya/weather-app" target="_blank">View on GitHub</a>
-      </div>
-
-      <div class="project-card">
-        <h3>Task Manager</h3>
-        <p>A simple and elegant to-do list app that uses JavaScript local storage for saving tasks.</p>
-        <a href="https://github.com/jayasurya/task-manager" target="_blank">View on GitHub</a>
-      </div>
-
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <strong>JAYASURYA</strong> — handcrafted quietly.</p>
+      <p><a href="https://www.instagram.com/_itz_me_js?igsh=MThnejBsdnF0ZWM3OA%3D%3D&utm_source=qr" target="_blank" rel="noopener">Instagram</a></p>
     </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>
-      Let’s connect! Reach me at 
-      <a href="mailto:jayasurya2005tfg@gmail.com">jayasurya2005tfg@gmail.com</a>.
-    </p>
-  </section>
-
-  <footer>
-    <p>© <span id="year"></span> Jayasurya | Built with ❤️</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
